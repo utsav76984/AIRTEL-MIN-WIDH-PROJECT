@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    max-width: 100%;
+}
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap; 
+}
+.d-flex1{
+    display: flex;
+}
+.nav1 img{
+
+ width: 70px;
+ 
+}
+
+.nav-btn{
+    display: none;
+}
+
+.navbar{
+    max-width: 1320px;
+    padding: 20px;
+    margin: auto;
+    font-family: Tondo, sans-serif;
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ************m-r****************** */
+
+.m-t{
+    margin-top: 30px;
+}
+
+.m-t{
+    margin: auto;
+}
+
+
+/* **********d-flex********************************* */
+
+.j-t-e{
+    justify-content: space-evenly;
+}
+
+.j-t-b{
+    justify-content: space-between;
+}
+
+.j-c-c{
+    justify-content: center;
+}
+
+.t-a-c{
+    text-align: center;
+}
+
+
+
+/* *****************p-d**************************** */
+
+.p-10{
+    padding: 10px;
+}
+
+
+/* ***************section-2****************** */
+
+.all-text{
+
+    color: aqua;
+    margin-left: 20px;
+
+    
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+ scale: 1.1;
+ 
+}
+
+.font-one{
+    font-family: Tondo, sans-serif;
+    padding: 10px;
+    color: white;
+    font-weight: 2px;
+
+}
+
+.font-two{
+    font-family: Tondo, sans-serif;
+    padding: 10px;
+    color: white;
+    font-weight: 2px;
+
+}
+
+
+.font-p{
+    font-family: Tondo, sans-serif;
+    padding: 10px;
+    color: white;
+
+}
+
+.font-two{
+    font-family: Tondo, sans-serif;
+    padding: 10px;
+    color: black;
+
+}
+.img-one{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-image: url(img/hero-banner-5.webp);
+}
+
+.img-two{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-image: url(img/herobanner_airtelxapple_dweb.jpg);
+}
+
+
+.slick-prev{
+    left: 100px !important;
+    z-index: 100;
+}
+
+.slick-next{
+    left: 200px !important;
+}
+
+.slick-prev:before, .slick-next:before{
+    color: black !important;
+    background-color: white !important;
+    border: 1px solid white !important;
+    border-radius: 50%;
+}
+
+.slick-next, .slick-prev{
+    top: 80% !important;
+}
+
+.slick-dots{
+    top:77%;
+    left: 120px;
+    width: 80px !important;
+    height: fit-content;
+}
+
+
+.slick-dots li button {
+    font-size: 20px !important;
+    /* line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    background: transparent; */
+    color: black !important;
+    background-color: white !important;
+}
+
+.slick-dots li button:before{
+    content:  " " !important;
+}
+
+
+/* ***************section-3************* */
+
+
+.font-1{
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bo-box img{
+    width: 70px;
+    padding-top: 50px;
+}
+
+.select-plan{
+    height: 100px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.text-airtel {
+    padding-left: 20px;
+}
+
+.airtel-img img{
+    width: 80px;
+}
+
+.text-p-p{
+    color: rgb(167, 150, 150);
+    
+}
+
+.btn-t{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    transition: all 0.5s;
+    margin-left: 20px;
+}
+
+
+/* **********************section-4*********************************** */
+
+.line-{
+   
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(15, 15, 14);
+    margin-top: 30px;
+    padding: 5px;
+    
+}
+
+.img-5 img{
+    width: 20px;
+}
+
+.p-font-1{
+    color: white;
+}
+
+.btn-t-1{
+    border: 2px solid white;
+    color: rgb(238, 228, 228);
+    background-color: rgb(15, 14, 14);
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+    grid-template-columns: repeat("3");
+    transition: all 0.5s;
+    
+}
+
+
+/* ******************************section-5*********************** */
+
+.poin{
+    margin: auto;
+}
+.for{
+    margin-top: 60px;
+}
+
+.box-4{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 50px;
+}
+.box-4 img{
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+
+.im-1{
+    background-size: cover;
+    height: 400px;
+}
+
+.brand{
+    font-size: 10px;
+    padding: 30px;
+}
+
+.text-p-f{
+    color: rgb(191, 201, 201);
+    font-size: 15px;
+    padding: 30px;
+}
+
+.btn-t-2{
+    border: 2px solid white;
+    color: rgb(17, 16, 16);
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 0.5s;
+    margin-left: 20px;
+}
+
+
+
+/* **************************section-6**********************************/
+
+.b-g-image{
+    margin-top: 40px;
+    width: 100%;
+    
+    border: 2px solid black;
+    background-image: url(img/conversational-widget-bg-web.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div-img{
+    width: 100%;
+}
+
+
+.box-8{
+   
+    margin-top: 30px;
+    box-shadow: rgba(190, 5, 5, 0.35) 0px 5px 15px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-family: Tondo, sans-serif;
+    padding-top: 30px;
+    border-radius: 20px;
+    
+
+}
+
+.font-1-1{
+    color: white ;
+    text-align: center;
+
+}
+
+.h1-h1-font{
+    font-size: 18px;
+    padding: 10px;
+}
+
+.btn-t-3{
+
+    border: 2px solid rgb(228, 219, 219);
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+    transition: all 0.5s;
+    margin-top: 20px;
+    
+}
+
+.btn-t-3:hover{
+    scale: 1.1;
+    
+}
+
+
+
+
+.btn-t-4{
+
+    border: 2px solid white;
+    color: black;
+    background-color: rgb(228, 207, 207);
+    border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+    transition: all 0.5s;
+    margin-top: 20px;
+    
+}
+
+.btn-t-4:hover{
+    scale: 1.1;
+    
+}
+
+
+.btn-t-6{
+
+    color: black;
+    background-color: rgb(228, 207, 207);
+     border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+    transition: all 0.5s;
+    margin-top: 20px;
+    
+}
+
+.btn-t-6:hover{
+    scale: 1.1;
+    
+}
+
+
+.btn-t-7{
+
+    color: black;
+    background-color: rgb(233, 231, 231);
+     border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+    transition: all 0.5s;
+    margin-top: 20px;
+    
+}
+
+.btn-t-7:hover{
+    scale: 1.1;
+    
+}
+
+
+/* ******************************section-7************************************** */
+
+.div-img img{
+    width: 140px;
+}
+   
+
+.div-5{
+    margin-top: 30px;
+    /* height: 200px;
+    width: 200px; */
+    /* border: 2px solid black; */
+    padding: 20px;
+}
+
+.div-5 img{
+   width: 100px;
+}
+
+.div-7 h1{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.div-8 p{
+    font-size: 18px;
+    color: rgb(180, 183, 185);
+}
+
+
+/* *****************************************section-8******************************** */
+
+
+.div-9 img{
+
+    margin-top: 40px;
+    width: 100%;
+}
+
+
+/* **********************************************section-9*************************************** */
+
+.and-part{
+    margin-top: 30px;
+    
+    text-align: center;
+    padding-left: 20px;
+}
+
+.and-1{
+    font-size: 15px;
+    color: rgb(35, 20, 170);
+    padding: 20px;
+}
+
+.and-2{
+
+    font-size: 10px;
+    color: rgb(122, 190, 66);
+    padding: 20px;
+    line-height: 2;
+}

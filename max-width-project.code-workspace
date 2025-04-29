@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../max-width-project"
+		},
+		{
+			"path": "../min-width-project"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "max-width-project"
+	}
+}
